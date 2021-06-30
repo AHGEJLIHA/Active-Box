@@ -58,7 +58,7 @@ body{
 }
 
 .navigation__link:first-child{
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .navigation__link:hover{
@@ -121,10 +121,7 @@ body{
     background-color: #e84545;
     transition: background-color 0.2s;
 
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 54px;
-    padding-right: 46px;
+    padding: 18px 46px 18px 54px;
 
     border-radius: 3px;
 }
@@ -138,7 +135,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 
-    margin: 120px 0px;
+    margin: 120px 0;
 }
 
 .features__item{
