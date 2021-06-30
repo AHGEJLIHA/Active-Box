@@ -1,0 +1,134 @@
+/* font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body{
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*~~~~~~~~~~~CONTAINER~~~~~~~~~~~~~*/
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~*/
+.header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 35px 0;
+
+    border-bottom: 1px solid #4f5168;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation__link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.75;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-left: 59px;
+
+    transition: opacity 0.2s;
+}
+
+.navigation__link:first-child{
+    margin-left: 0px;
+}
+
+.navigation__link:hover{
+    opacity: 1;
+}
+
+/*~~~~~~~~~~~~~~~INTRO~~~~~~~~~~~~~~~~*/
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 750px;
+    background: #2a2d48 url("images/Intro_ActiveBox.jpg") center no-repeat;
+
+    padding-top: 100px;
+}
+
+.intro__inner{
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1.09;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro__subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+
+    margin-top: 41px;
+}
+
+.intro__button{
+    margin-top: 95px;
+    text-align: center;
+}
+
+.intro__text_button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.62;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #e84545;
+    transition: background-color 0.2s;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 54px;
+    padding-right: 46px;
+
+    border-radius: 3px;
+}
+
+.intro__text_button:hover{
+    background-color: #cf3e3e;
+}
