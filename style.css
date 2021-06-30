@@ -19,7 +19,7 @@ body{
     margin: 0 auto;
 }
 
-/*~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~*/
 .header{
     width: 100%;
     height: 100px;
@@ -65,14 +65,14 @@ body{
     opacity: 1;
 }
 
-/*~~~~~~~~~~~~~~~INTRO~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~INTRO~~~~~~~~~~~~~~~~*/
 .intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     height: 750px;
-    background: #2a2d48 url("images/Intro_ActiveBox.jpg") center no-repeat;
+    background: #2a2d48 url("images/Intro_ActiveBox.png") center no-repeat;
 
     padding-top: 100px;
 }
@@ -132,3 +132,43 @@ body{
 .intro__text_button:hover{
     background-color: #cf3e3e;
 }
+
+/*~~~~~~~~~~~~~~FEATURES~~~~~~~~~~~~~*/
+.features{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 120px 0px;
+}
+
+.features__item{
+    width: 33.33333%;
+    
+    text-align: center;
+
+    padding: 0 40px 70px;
+}
+
+.features__image{
+    margin-bottom: 34px;
+}
+
+.features__title_item{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+
+    margin-bottom: 26px;
+}
+
+.features__text_item{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+
+/*~~~~~~~~~~~~~~~~WORKS~~~~~~~~~~~~~~~*/
