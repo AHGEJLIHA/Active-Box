@@ -389,3 +389,58 @@ body{
 
     text-transform: uppercase;
 }
+
+/*~~~~~~~~~~~DOWNLOAD~~~~~~~~~~~*/
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 100px 0;
+}
+
+.download__title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 0.75;
+    color: #030f1b;
+
+    margin-bottom: 16px;
+}
+
+.download__subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.62;
+    color: #2d3033;
+    text-transform: uppercase;
+
+    margin-bottom: 40px;
+}
+
+.download__button{
+    text-align: center;
+}
+
+.download__text_button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.62;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #e84545;
+    transition: background-color 0.2s;
+
+    padding: 18px 83px 18px;
+
+    border-radius: 3px;
+}
+
+.download__text_button:hover{
+    background-color: #cf3e3e;
+}
