@@ -439,8 +439,127 @@ body{
     padding: 18px 83px 18px;
 
     border-radius: 3px;
+
+    text-align: center;
 }
 
 .download__text_button:hover{
     background-color: #cf3e3e;
+}
+
+/*~~~~~~~~~~~FOOTER~~~~~~~~~~~*/
+footer{
+    background-color: #3a3e64;
+
+    padding: 70px 0;
+}
+
+.footer__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__block{
+    width: 33.33333%;
+
+    text-align: center;
+}
+
+.footer__title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.61;
+    color: #fff;
+    text-transform: uppercase;
+
+    margin-bottom: 22px;
+}
+
+.footer__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.61;
+    color: #fff;
+
+    opacity: 0.5;
+}
+
+.footer__item_socialnet{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item_socialnet_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid #fff;
+    border-radius: 2px;
+
+    padding-left: 4px;
+
+    transition: background 0.2s linear;
+
+    margin-left: 7px;
+}
+
+.footer__item_socialnet_item:first-child{
+    padding-left: 0;
+
+    margin-left: 0;
+}
+
+.footer__item_socialnet_item:hover{
+    background-color: #e84545;
+}
+
+.footer__item_socialnet_item:hover .team__item_socialnet_image{
+    fill: #fff;
+}
+
+.footer__item_socialnet_link{
+
+}
+
+.footer__item_socialnet_image{
+    display: block;
+
+    fill: #fff;
+
+    width: 18px;
+    height: 18px;
+}
+
+.copyright{
+    text-align: center;
+
+    background-color: #313454;
+
+    padding: 28px 0;
+}
+
+.copyright__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.61;
+    color: #808080;
+}
+
+.copyright__text span{
+    color: #fff;
+}
+
+.copyright__heart{
+    margin: 0 auto;
+
+    width: 14px;
+    height: 10px;
 }
